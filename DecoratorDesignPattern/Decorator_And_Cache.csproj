@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{6EE1FF73-655B-419F-B545-E7802570F90D}</ProjectGuid>
+    <ProjectGuid>{993A2B4A-A9F5-41AA-BD0A-78924A9D81C0}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Decorator_And_Cache</RootNamespace>
-    <AssemblyName>Decorator_And_Cache</AssemblyName>
+    <RootNamespace>DecoratorDesignPattern</RootNamespace>
+    <AssemblyName>DecoratorDesignPattern</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,8 +43,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="items.cs" />
-    <Compile Include="Program.cs" />
+    <Compile Include="Activities.cs" />
+    <Compile Include="Activity.cs" />
+    <Compile Include="ActivityDecorator.cs" />
+    <Compile Include="IActivity.cs" />
+    <Compile Include="OfferCost.cs" />
+    <Compile Include="ActivityMain.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

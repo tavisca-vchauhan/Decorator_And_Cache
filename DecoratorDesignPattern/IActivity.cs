@@ -6,10 +6,9 @@ using System.Threading.Tasks;
 
 namespace Decorator_And_Cache
 {
-    class Program
+    public interface IActivity
     {
-        static void Main(string[] args)
-        {
-        }
+        List<Activities> GetActivityList();
+
     }
 }
